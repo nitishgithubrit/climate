@@ -1,0 +1,299 @@
+
+
+/* General styles */
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  background-color: #f8f9fa; /* Light background color */
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px; /* Increased max-width for better layout */
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Header Section */
+header {
+  background: url('https://media.istockphoto.com/id/1147070895/photo/group-of-demonstrators-on-road-young-people-from-different-culture-and-race-fight-for-climate.webp?b=1&s=170667a&w=0&k=20&c=IDLb7VxrzEwAXvjybIuyk3coWVvF66sDLyQDFgi7D-0=') no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff; /* Adjusted text color for better contrast */
+  position: relative;
+}
+
+header .text-center {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 10px;
+  animation: fadeIn 2s ease-in-out;
+}
+
+header h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #ddd; /* Adjusted text color for better contrast */
+}
+
+/* Keyframes for Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Section Styles */
+section {
+  padding: 80px 0; /* Increased padding for better spacing */
+}
+
+section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  text-align: center;
+  color: #28a745;
+}
+
+section p {
+  font-size: 1.1rem;
+  text-align: center;
+  color: #666;
+}
+
+.section-content {
+  animation: slideUp 1s ease-in-out;
+}
+
+/* About Section */
+#about {
+  background-color: #aad1bc;
+  padding: 100px 0; /* Increased padding for better spacing */
+}
+
+#about .content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#about img {
+  width: 100%;
+  height: auto;
+  max-height: 400px; /* Adjusted max-height for better image scaling */
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  margin: 20px 0;
+}
+
+/* Projects Section */
+#projects {
+  padding: 80px 0; /* Increased padding for better spacing */
+  background-color: #f5f5f5; /* Lighter background for better contrast */
+}
+
+#projects h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  text-align: center;
+  color: #28a745;
+}
+
+#projects p {
+  margin-bottom: 40px;
+  text-align: center;
+  color: #7ca2c4;
+}
+
+.carousel-inner img {
+  max-height: 600px;
+}
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+/* Projects Section */
+#projects .carousel {
+  margin-top: 30px;
+}
+
+#projects .carousel-item {
+  text-align: center;
+}
+
+#projects .carousel-item img {
+  max-width: 100%;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px #f4ededcd;
+}
+
+#projects .carousel-control-prev,
+#projects .carousel-control-next {
+  background-color: #28a745;
+  border-radius: 50%;
+}
+
+/* Custom CSS for contribute section */
+#contribute {
+  padding: 80px 0; /* Increased padding for better spacing */
+  background-color: #fff; /* White background for better contrast */
+}
+
+/* Style for contribute cards */
+.card {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.card .card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.25rem;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 0.75rem;
+}
+
+.card-text {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
+
+.btn {
+  font-size: 1rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  background-color: #28a745;
+  color: #fff;
+}
+
+.btn:hover {
+  background-color: #218838;
+}
+
+/* Contact Section */
+#contact {
+  background-color: #28a745;
+  color: white;
+  padding: 80px 0; /* Increased padding for better spacing */
+}
+
+#contact ul {
+  list-style: none;
+  padding: 0;
+}
+
+#contact ul li {
+  margin: 10px 0;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #343a40;
+  color: #ccc;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Card Styles */
+.card {
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card-title {
+  font-size: 1.5rem;
+  color: #28a745;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #666;
+}
+
+/* Form Styles */
+form .form-control {
+  border-radius: 10px;
+}
+
+form .btn {
+  border-radius: 10px;
+  background-color: #28a745;
+  color: white;
+}
+
+form .btn:hover {
+  background-color: #218838;
+}
+
+/* Modal Styles */
+.modal-header {
+  background-color: #28a745;
+  color: white;
+}
+
+.modal-body {
+  color: #666;
+}
+
+.modal-content {
+  border-radius: 15px;
+}
+
+.modal-footer .btn {
+  background-color: #28a745;
+  color: white;
+}
+
+.modal-footer .btn:hover {
+  background-color: #218838;
+}
+
+/* Media Queries */
+@media (max-width: 992px) {
+  .container {
+    padding: 0 15px;
+  }
+  
+  #about .content {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  #about img {
+    max-width: 100%;
+  }
+}
